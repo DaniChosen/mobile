@@ -79,6 +79,7 @@ class _EstadoAplicativo extends State<Aplicativo> {
       contador1 = 0;
       contador2 = 0;
       _tempo = 60;
+      _clique = true;
     });
     _timer.cancel();
     _iniciarTimer();
